@@ -1,0 +1,108 @@
+*{ 
+    margin: 0;
+
+   padding:0 ;
+
+    box-sizing: border-box;
+}
+
+body header img {text-align: center;
+
+width: 100%;
+
+}
+header .bg-colordefondo{
+    background-color: #c08acc;
+    
+    
+}
+
+
+li .menu-hover:hover{
+    background-color: #c08acc;
+}
+
+main{color: #c08acc;
+    font-family:  "Madimi One", sans-serif;
+    text-align: center;}
+
+
+section {color: #c08acc;
+    font-family:  "Madimi One", sans-serif;
+   
+}
+
+@media only screen and (min-width: 600px) {
+
+    
+   .mostrador .fila .item img{
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 10px 20px 30px;
+       
+    }
+  
+    
+    }
+
+
+@media only screen and (min-width:961px){
+    
+    /* estilo de galeria de productos*/
+ .productos{
+    max-width: 1000px;
+    margin: 40px auto;
+    width: 100% ;
+    display: flex;
+}
+.mostrador{
+    width: 100%;
+
+}
+
+.mostrador .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.mostrador .fila .item{
+    padding: 50px;
+    height: 410px;
+
+}
+
+.mostrador .fila .item img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px;
+   
+}
+
+.descripcion{
+    font-family:  "Madimi One", sans-serif
+
+}
+
+.precio{
+    text-align: center;
+}
+}
+
+    
+
+    
+ 
+
+/*estilos de footer*/
+
+    footer{color:#c08acc  ;
+    font-family:  "Madimi One", sans-serif;
+
+    text-align: center;}
+    
+    p{font-family:  "Madimi One", sans-serif;
+        
+        color: black;}
+
+       
