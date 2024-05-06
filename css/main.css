@@ -1,0 +1,108 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body section {
+  color: #c08acc;
+  font-family: "Madimi One", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 961px) {
+  body section {
+    /* estilo de galeria de productos*/
+  }
+  body section .productos {
+    max-width: 1000px;
+    margin: 40px auto;
+    width: 100%;
+    display: flex;
+  }
+  body section .productos .mostrador {
+    width: 100%;
+  }
+  body section .productos .mostrador .fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+  body section .productos .mostrador .fila .item {
+    padding: 50px;
+    height: 410px;
+  }
+  body section .productos .mostrador .fila .item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px;
+  }
+  body section .productos .mostrador .fila .item img .descripcion {
+    font-family: "Madimi One", sans-serif;
+  }
+  body section .productos .mostrador .fila .item img .precio {
+    text-align: center;
+  }
+}
+body section .productos {
+  max-width: 600px;
+  margin: 50px 0px 50px auto;
+  width: 70%;
+  display: flex;
+}
+body section .productos .mostrador {
+  width: 100%;
+}
+body section .productos .mostrador .fila .item {
+  padding: 10px;
+  margin: 100px 0px 0px 0px;
+  height: 270px;
+  display: flex;
+}
+body section .productos .mostrador .fila .item .contenedor-foto .descripcion {
+  font-family: "Madimi One", sans-serif;
+}
+body section .productos .mostrador .fila .item .contenedor-foto .precio {
+  margin: 0px 0px 0px 50px;
+}
+body section .productos .mostrador .fila .item img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 10px 20px 30px;
+  display: flex;
+}
+body main {
+  color: #c08acc;
+  font-family: "Madimi One", sans-serif;
+  text-align: center;
+  /*estilo de ubicacion*/
+  /*estilo guia de talles*/
+}
+body main iframe .mapa {
+  max-width: 100%;
+}
+body main div.guia-de-talles {
+  color: black;
+  font-family: "Madimi One", sans-serif;
+}
+body header nav ul li .menu-hover:hover {
+  background-color: #c08acc;
+}
+body header .bg-colordefondo {
+  background-color: #c08acc;
+}
+body header img {
+  text-align: center;
+  width: 100%;
+}
+body footer {
+  color: #c08acc;
+  font-family: "Madimi One", sans-serif;
+  text-align: center;
+}
+body footer p {
+  font-family: "Madimi One", sans-serif;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
